@@ -76,6 +76,8 @@
 }
 - (void)dealloc {
     [date release];
+    [imageView release];
+    [timeLabel release];
     [super dealloc];
 }
 - (void)updateLabel {
