@@ -2,8 +2,7 @@
 //  main.m
 //  HakobeDokei
 //
-//  Created by 鈴木 督史 on 3/5/10.
-//  Copyright 立命館大学 2010. All rights reserved.
+//  Created by 鈴木 うどん on 3/5/10.
 //
 
 #import <UIKit/UIKit.h>

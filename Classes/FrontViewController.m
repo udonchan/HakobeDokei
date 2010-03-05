@@ -2,8 +2,7 @@
 //  FrontViewController.m
 //  HakobeDokei
 //
-//  Created by 鈴木 督史 on 3/5/10.
-//  Copyright 2010 立命館大学. All rights reserved.
+//  Created by 鈴木 うどん on 3/5/10.
 //
 
 #import "FrontViewController.h"
