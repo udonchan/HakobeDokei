@@ -6,11 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-@protocol DateViewDelegate <NSObject>
-@required
-- (void)takeNewDate:(NSDate *)newDate;
-- (UINavigationController *)navController;
-@end
 @interface FrontViewController : UIViewController {
     NSDate *date;
     UIImageView *imageView;

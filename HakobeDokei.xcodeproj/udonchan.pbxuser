@@ -101,6 +101,9 @@
 			8C412D04114114070028B5B2 /* PBXTextBookmark */ = 8C412D04114114070028B5B2 /* PBXTextBookmark */;
 			8C412D07114114340028B5B2 /* PBXTextBookmark */ = 8C412D07114114340028B5B2 /* PBXTextBookmark */;
 			8C412D0A1141147E0028B5B2 /* PBXTextBookmark */ = 8C412D0A1141147E0028B5B2 /* PBXTextBookmark */;
+			8C412D0D1141159F0028B5B2 /* PBXTextBookmark */ = 8C412D0D1141159F0028B5B2 /* PBXTextBookmark */;
+			8C412D0E1141159F0028B5B2 /* PBXTextBookmark */ = 8C412D0E1141159F0028B5B2 /* PBXTextBookmark */;
+			8C412D0F1141159F0028B5B2 /* PBXTextBookmark */ = 8C412D0F1141159F0028B5B2 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8C412ACC1140A6970028B5B2 /* Source Control */;
 		userBuildSettings = {
@@ -165,15 +168,15 @@
 	8C412AD11140A6D70028B5B2 /* FrontViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1647, 1045}}";
-			sepNavSelRange = "{341, 0}";
-			sepNavVisRange = "{0, 496}";
+			sepNavSelRange = "{109, 0}";
+			sepNavVisRange = "{0, 361}";
 		};
 	};
 	8C412AD21140A6D70028B5B2 /* FrontViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1647, 1224}}";
 			sepNavSelRange = "{388, 0}";
-			sepNavVisRange = "{3, 2272}";
+			sepNavVisRange = "{3, 2316}";
 		};
 	};
 	8C412C80114102930028B5B2 /* XCBuildMessageTextBookmark */ = {
@@ -252,7 +255,7 @@
 		fRef = 8C412AD11140A6D70028B5B2 /* FrontViewController.h */;
 		name = "FrontViewController.h: 13";
 		rLen = 0;
-		rLoc = 243;
+		rLoc = 109;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 0;
@@ -291,7 +294,7 @@
 		fRef = 8C412AD11140A6D70028B5B2 /* FrontViewController.h */;
 		name = "FrontViewController.h: 22";
 		rLen = 0;
-		rLoc = 449;
+		rLoc = 314;
 		rType = 0;
 		vrLen = 590;
 		vrLoc = 0;
@@ -401,7 +404,7 @@
 		fRef = 8C412AD11140A6D70028B5B2 /* FrontViewController.h */;
 		name = "FrontViewController.h: 22";
 		rLen = 0;
-		rLoc = 449;
+		rLoc = 314;
 		rType = 0;
 		vrLen = 590;
 		vrLoc = 0;
@@ -431,7 +434,7 @@
 		fRef = 8C412AD11140A6D70028B5B2 /* FrontViewController.h */;
 		name = "FrontViewController.h: 20";
 		rLen = 0;
-		rLoc = 482;
+		rLoc = 347;
 		rType = 0;
 		vrLen = 468;
 		vrLoc = 0;
@@ -461,7 +464,7 @@
 		fRef = 8C412AD11140A6D70028B5B2 /* FrontViewController.h */;
 		name = "FrontViewController.h: 16";
 		rLen = 0;
-		rLoc = 341;
+		rLoc = 206;
 		rType = 0;
 		vrLen = 496;
 		vrLoc = 0;
@@ -519,7 +522,7 @@
 		fRef = 8C412AD11140A6D70028B5B2 /* FrontViewController.h */;
 		name = "FrontViewController.h: 16";
 		rLen = 0;
-		rLoc = 341;
+		rLoc = 206;
 		rType = 0;
 		vrLen = 496;
 		vrLoc = 0;
@@ -593,5 +596,35 @@
 		rType = 0;
 		vrLen = 2272;
 		vrLoc = 3;
+	};
+	8C412D0D1141159F0028B5B2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8C412AD21140A6D70028B5B2 /* FrontViewController.m */;
+		name = "FrontViewController.m: 13";
+		rLen = 0;
+		rLoc = 388;
+		rType = 0;
+		vrLen = 2316;
+		vrLoc = 3;
+	};
+	8C412D0E1141159F0028B5B2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8C412AD11140A6D70028B5B2 /* FrontViewController.h */;
+		name = "FrontViewController.h: 16";
+		rLen = 0;
+		rLoc = 206;
+		rType = 0;
+		vrLen = 496;
+		vrLoc = 0;
+	};
+	8C412D0F1141159F0028B5B2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8C412AD11140A6D70028B5B2 /* FrontViewController.h */;
+		name = "FrontViewController.h: 9";
+		rLen = 0;
+		rLoc = 109;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
 	};
 }
