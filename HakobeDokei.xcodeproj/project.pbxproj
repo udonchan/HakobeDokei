@@ -13,6 +13,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		8C412AD31140A6D70028B5B2 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C412AD21140A6D70028B5B2 /* FrontViewController.m */; };
+		8C412CED114111B60028B5B2 /* hakobe01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C412CEB114111B60028B5B2 /* hakobe01.png */; };
+		8C412CEE114111B60028B5B2 /* hakobe02.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C412CEC114111B60028B5B2 /* hakobe02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		32CA4F630368D1EE00C91783 /* HakobeDokei_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HakobeDokei_Prefix.pch; sourceTree = "<group>"; };
 		8C412AD11140A6D70028B5B2 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
 		8C412AD21140A6D70028B5B2 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
+		8C412CEB114111B60028B5B2 /* hakobe01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hakobe01.png; sourceTree = "<group>"; };
+		8C412CEC114111B60028B5B2 /* hakobe02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hakobe02.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HakobeDokei-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HakobeDokei-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +69,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8C412CEA114111A70028B5B2 /* images */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -99,6 +104,15 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C412CEA114111A70028B5B2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8C412CEB114111B60028B5B2 /* hakobe01.png */,
+				8C412CEC114111B60028B5B2 /* hakobe02.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +157,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C412CED114111B60028B5B2 /* hakobe01.png in Resources */,
+				8C412CEE114111B60028B5B2 /* hakobe02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

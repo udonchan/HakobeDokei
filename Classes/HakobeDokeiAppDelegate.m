@@ -12,10 +12,10 @@
                           [[[FrontViewController alloc] initWithAppDelegate:self]autorelease]];
 }
 -(void)applicationDidFinishLaunching:(UIApplication *)application{ 
-	[self createViews];
-	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-	[window addSubview:rootViewController.view];
-	[window makeKeyAndVisible];
+    [self createViews];
+    window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [window addSubview:rootViewController.view];
+    [window makeKeyAndVisible];
 }
 -(void)dealloc{
     [window release];
