@@ -9,9 +9,11 @@
 @interface FrontViewController : UIViewController {
     NSDate *date;
     UIImageView *imageView;
+    UILabel *timeLabel;
     id delegate;
 }
 @property (nonatomic, retain) NSDate *date;
 @property (nonatomic, assign) id  delegate;
 -(id)initWithAppDelegate:(id)appDelegate;
+-(void)updateLabel;
 @end

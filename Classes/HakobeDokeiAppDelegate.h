@@ -9,8 +9,10 @@
 #import "HakobeDokeiAppDelegate.h"
 @interface HakobeDokeiAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	UINavigationController *rootViewController;
+    UINavigationController *rootViewController;
+    NSTimer *timer;
 }
 @property (retain, readonly) UINavigationController *rootViewController;
+@property (assign) NSTimer *timer;
 @end
 

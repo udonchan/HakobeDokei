@@ -7,6 +7,7 @@
 #import "HakobeDokeiAppDelegate.h"
 @implementation HakobeDokeiAppDelegate
 @synthesize rootViewController;
+@synthesize timer;
 -(void)createViews{
 	rootViewController = [[UINavigationController alloc] initWithRootViewController:
                           [[[FrontViewController alloc] initWithAppDelegate:self]autorelease]];
@@ -16,6 +17,9 @@
     window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [window addSubview:rootViewController.view];
     [window makeKeyAndVisible];
+}
+- (void)applicationWillTerminate:(UIApplication *)application {
+    [timer invalidate];
 }
 -(void)dealloc{
     [window release];
