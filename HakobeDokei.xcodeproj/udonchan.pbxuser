@@ -1,0 +1,97 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* HakobeDokeiAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 464}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 319}";
+		};
+	};
+	1D3623250D0F684500981E51 /* HakobeDokeiAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 464}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 477}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* HakobeDokei */ = {
+		activeExec = 0;
+		executables = (
+			8C412AC01140A6780028B5B2 /* HakobeDokei */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8C412AC01140A6780028B5B2 /* HakobeDokei */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* HakobeDokei */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* HakobeDokei */,
+		);
+		codeSenseManager = 8C412ACD1140A6970028B5B2 /* Code sense */;
+		executables = (
+			8C412AC01140A6780028B5B2 /* HakobeDokei */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 289449592;
+			PBXWorkspaceStateSaveDate = 289449592;
+		};
+		sourceControlManager = 8C412ACC1140A6970028B5B2 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 464}}";
+			sepNavSelRange = "{180, 0}";
+			sepNavVisRange = "{0, 367}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* HakobeDokei_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 464}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 191}";
+		};
+	};
+	8C412AC01140A6780028B5B2 /* HakobeDokei */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HakobeDokei;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	8C412ACC1140A6970028B5B2 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8C412ACD1140A6970028B5B2 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
