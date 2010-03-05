@@ -9,7 +9,7 @@
 @synthesize rootViewController;
 -(void)createViews{
 	rootViewController = [[UINavigationController alloc] initWithRootViewController:
-						  [[[FrontViewController alloc] initWithAppDelegate:self]autorelease]];
+                          [[[FrontViewController alloc] initWithAppDelegate:self]autorelease]];
 }
 -(void)applicationDidFinishLaunching:(UIApplication *)application{ 
 	[self createViews];
@@ -19,7 +19,7 @@
 }
 -(void)dealloc{
     [window release];
-	[rootViewController release];
+    [rootViewController release];
     [super dealloc];
 }
 @end
